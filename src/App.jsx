@@ -46,6 +46,7 @@ export const App = () => {
               className={
                 selectedGood === good ? 'has-background-success-light' : ''
               }
+              key={good}
             >
               <td>
                 {selectedGood === good ? (
